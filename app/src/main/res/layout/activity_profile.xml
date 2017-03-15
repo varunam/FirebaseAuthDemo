@@ -17,10 +17,38 @@
 
         <TextView
             android:id="@+id/userEmailText"
+            android:textAlignment="center"
             android:text="Profile Activity"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/fullnameText"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your full name"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/addressText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Address"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Save information"
             />
 
         <Button
